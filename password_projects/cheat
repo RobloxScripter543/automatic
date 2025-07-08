@@ -1,4 +1,14 @@
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+mkdir automatic
+mkdir data
+mkdir modules
+mkdir config
+mkdir status
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
-RobloxScripter543
+touch .gitignore
+
+git add .
+git commit -m "Adding repo Structure for trojan"
+git remote add origin https://github.com/RobloxScripter543/automatic
+git remote set-url origin https://RobloxScripter543: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@github.com/RobloxScripter543/automatic
+git branch -M main
+git push origin main
